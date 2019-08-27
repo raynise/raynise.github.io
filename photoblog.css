@@ -1,0 +1,20 @@
+.food {width: 30%; float:left;
+margin: 1.66%
+}
+body {background: gainsboro}
+h1 {
+	font-family: ReenieBeanie; 
+	text-align:center; 
+	font-size: 80px; 
+	text-transform: uppercase;
+margin-bottom: 0}
+div {text-align: center;line-height:0 margin-bottom:0;}
+
+.me {height: 150px; border: 1px solid lightsteelblue; margin-bottom: 0;}
+
+h2 {
+	font-family: ReenieBeanie; 
+	text-align:center; 
+	font-size: 50px; 
+	text-transform: lowercase;
+margin-top:0; margin-bottom: 0;}
