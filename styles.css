@@ -1,17 +1,20 @@
-* {
-  margin:0px;
-  padding:0px;
+.food {width: 30%; float:left;
+margin: 1.66%
 }
+body {background: gainsboro}
+h1 {
+	font-family: ReenieBeanie; 
+	text-align:center; 
+	font-size: 80px; 
+	text-transform: uppercase;
+margin-bottom: 0}
+div {text-align: center;line-height:0 margin-bottom:0;}
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
+.me {height: 150px; border: 1px solid lightsteelblue; margin-bottom: 0;}
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+h2 {
+	font-family: ReenieBeanie; 
+	text-align:center; 
+	font-size: 50px; 
+	text-transform: lowercase;
+margin-top:0; margin-bottom: 0;}
