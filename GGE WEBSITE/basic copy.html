@@ -38,10 +38,9 @@ background-color: lightgrey;}
   color: white;
   padding-top:.5rem;
 }
-
-.navbar-dark .navbar-nav .navbar-link .active,
-.navbar-dark .navbar-nav .navbar-link:hover {
-color: #650d10;
+#mainnavbar .nav-link:hover {
+color:#650d10;
+font-size: 1.2rem
 }
 
 .pledge-btn {
@@ -239,6 +238,7 @@ margin: 1.66%;
 @-ms-viewport{
   width: device-width;
 }
+	
 .navbar.scrolled{
   background: rgb(200,100,100);
   transition: background 500ms;
@@ -252,7 +252,7 @@ font-size:3rem;}}
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
  
 <!-- Start of navbar html -->
- <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top py-0" >
+ <nav id = "mainnavbar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top py-0" >
 	    <div class="container">
 	      <a class="navbar-brand" href="index.html"></span> NABG</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-links" aria-controls="top-nav" aria-expanded="false" aria-label="Toggle navigation">
